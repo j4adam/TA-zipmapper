@@ -1,0 +1,34 @@
+[lookups/zipmapper.csv]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 6.5.3
+modtime = 1493215920.987533000
+
+[transforms/US_ZIP_CODES.csv]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 6.5.3
+modtime = 1493311300.368268000
+
+[transforms/GLOBAL_ZIP_CODES.csv]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 6.5.3
+modtime = 1493311465.385258000
+
+[macros/zipmap%281%29]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 6.5.3
+modtime = 1494354095.751777000
+
+[macros/zipmap%282%29]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+version = 6.5.3
+modtime = 1494355121.574709000

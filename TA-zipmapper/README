@@ -1,0 +1,23 @@
+Name: TA-zipmapper
+Author: Joshua Adam
+Version: 1.0
+
+Description: This is a quality of life add-on that comes with a large lookup table of zip codes from around the world
+and can take either a zip code or city and state/province combination and gives the latitude and longitude. 
+
+The intended usecase is to simplify the addition of latitude/longitude data into assets tables but it can be used to
+add value to any existing location data.
+
+The lookup table has the following header:
+
+city,county,lat,long,state,zip
+
+
+Currently the county field is not used in the macro but is available with manual usage of the ZIP_CODES.csv lookup table for added information.
+
+-------------------------------------------------------------------------------------
+It comes with an overloaded macro named zipmap that has two uses:
+
+`zipmap(ZIPCODE FIELD)` which adds the lat and long fields to an existing search.
+
+`zipmap(CITY FIELD, STATE FIELD)` which evaluates the city and state to upper case and adds the lat and long field to an existing search.
